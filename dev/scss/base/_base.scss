@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark-blue-main-bg);
+  margin: 0;
+  font-family: var(--text-font);
+  text-align: center;
+  color: #fff;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--header-font);
+}
+
+img {
+  max-width: 100%;
+}

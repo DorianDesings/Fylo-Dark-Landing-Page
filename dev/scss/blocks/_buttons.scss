@@ -1,0 +1,14 @@
+.button {
+  display: inline-block;
+  width: 80%;
+  padding: 1.5em;
+  margin-bottom: 15em;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 50px;
+
+  &--cyan {
+    background-image: linear-gradient(to right, var(--cyan), var(--blue));
+  }
+}

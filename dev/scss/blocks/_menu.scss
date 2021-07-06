@@ -1,0 +1,17 @@
+.main-nav {
+  margin-left: auto;
+  width: 55%;
+}
+
+.main-menu {
+  @include reset-list;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-menu__link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 200;
+  font-family: var(--header-font);
+}

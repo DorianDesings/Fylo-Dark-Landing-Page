@@ -1,0 +1,7 @@
+mixin card(text, img, name, job)
+  .card
+    p.card__text= text
+    .card__info
+      img(src=`assets/images/${img}`, alt="")
+      p.card__name= name
+      p.card__job= job

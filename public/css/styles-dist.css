@@ -1,0 +1,96 @@
+:root {
+  --dark-blue-intro: hsl(217, 28%, 15%);
+  --dark-blue-main-bg: hsl(218, 28%, 13%);
+  --dark-blue-footer: hsl(216, 53%, 9%);
+  --dark-blue-testimonial: hsl(219, 30%, 18%);
+  --cyan: hsl(176, 68%, 64%);
+  --blue: hsl(198, 60%, 50%);
+  --text-font: "Open Sans", sans-serif;
+  --header-font: "Raleway", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark-blue-main-bg);
+  margin: 0;
+  font-family: var(--text-font);
+  text-align: center;
+  color: #fff;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--header-font);
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+  width: 75px;
+}
+
+.top-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2em 1em;
+}
+
+.banner {
+  padding: 0 2em;
+  font-size: 0.8rem;
+}
+
+.main-subtitle {
+  font-size: 1rem;
+}
+
+.main-nav {
+  margin-left: auto;
+  width: 55%;
+}
+
+.main-menu {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-menu__link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 200;
+  font-family: var(--header-font);
+}
+
+.button {
+  display: inline-block;
+  width: 80%;
+  padding: 1.5em;
+  margin-bottom: 15em;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.button--cyan {
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--cyan)), to(var(--blue)));
+  background-image: linear-gradient(to right, var(--cyan), var(--blue));
+}
